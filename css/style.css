@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: FontAwesome;
+}
+.leva-stran {
+    flex: 1;
+    display: flex;
+}
+.leva-stran i {
+    padding: 0 2% 0 1%;
+}
+.podatki {
+    display: flex;
+    height: 30px;
+    padding: 0 0 0 125px;
+    border-bottom: 2px solid grey;
+}
+.desna-stran {
+    float: right;
+    flex: 1;
+    font-size: 20px;
+    padding: 0 0 0 69%;
+    display: flex;
+}
+.podatek {
+    padding: 0 0% 0 0%;
+    display: inline;
+
+}
+.naslovna-vrstica {
+    display: flex;
+}
+h1 {
+    flex: 1;
+    padding: 1% 0 1% 125px;
+    text-align: left;
+    font-size: 40px;
+}
+a {
+    text-decoration: none;
+    color: #7F7F7F;
+}
+a:hover {
+    color: rgb(83, 83, 240);
+}
+.nav-bar {
+    flex: 2;
+    padding: 1% 0 1%  50%;
+    font-size: 25px;
+}
+.nav-bar a {
+    padding: 0 4% 0 0;
+}
+.desna-stran a {
+    padding: 0 3% 0 0;
+}
+.slika {
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+}
+img {
+    margin: -100px 0 0 0;
+    width: 100%;
+    opacity: 0.9;
+
+}
+.naslov {
+    position: absolute;
+    font-size: 75px;
+    font-weight: bolder;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+.naslov p {
+    background: -webkit-linear-gradient(90deg, #f1c40f, #e67e22);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.informacije {
+    display: flex;
+    justify-content: space-around;
+}
+.info i {
+    font-size: 100px;
+    padding: 0 0 0 35%;
+
+}
+i {
+    font-style: oblique 0deg;
+}
+.info .tema{
+    font-size: 30px;
+    text-align: center;
+}
+.besedilo {
+    font-size: 14px;
+    text-align: center;
+}
+.srcek p {
+    padding: 0 0 0 7%;
+}
+
